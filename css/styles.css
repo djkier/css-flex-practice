@@ -179,3 +179,72 @@ img {
 }
 
 
+/*      QUOTES      */
+#big-quotes {
+    background-color: var(--gray);
+    padding: 4rem 0;
+}
+
+#quotes-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 4rem;
+}
+
+blockquote p {
+    text-align: justify;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+#big-quotes h3 {
+    font-size: 24px;
+    text-align: end;
+}
+
+/*     Sign-up      */
+
+#sign-up {
+    padding: 4rem 0;
+}
+
+#blue-big-box {
+    background-color: var(--blue);
+    width: 80%;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    padding: 4rem 6rem;
+    justify-content: space-between;
+    color: var(--white)
+}
+
+.sign-up-call p:first-of-type {
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.sign-up-call p:last-of-type {
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.sign-btn {
+    border: 0.5px solid var(--white);
+}
+
+/*   FOOTER    */
+footer {
+    color: var(--white);
+    background-color: var(--dark-bg);
+    padding: 2rem 0;
+
+}
+
+footer h1 {
+    text-align: center;
+    font-weight: 300;
+}
