@@ -133,6 +133,49 @@ a {
 img {
     width: auto;
     height: 100%;
-
-    
 }
+
+/*  INFORMATION   */
+
+#information {
+    width: 100%;
+    padding: 4rem 0;
+    color: var(--black);
+}
+
+#information h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+
+.info-container {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.info {
+    height: 20rem;
+    width: 12rem;
+    
+    box-shadow: 19px 15px 9px -5px rgba(0,0,0,0.1);;
+    padding: 1rem;
+}
+
+.blue-box {
+    border: 0.5rem solid var(--blue);
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.info p {
+    text-align: center;
+    color: var(--black);
+}
+
+
